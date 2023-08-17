@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__logo {
+    color: #69B9FF;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.header__menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__menu a {
+    color: #676770;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header__menu a:hover {
+    color: #0082F3;
+}
+
+.banner {
+    background-image: url(../images/IMAGE\ \(11\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 594px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 106px;
+}
+
+.banner__btns button {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-right: 20px;
+    transition: 3s;
+}
+.banner__btns button:hover{
+    background:#0082F3 ;
+}
